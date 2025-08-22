@@ -39,6 +39,9 @@ Airflow có 2 phiên bản phổ biến:
 ---
 
 ## 📦 Cài đặt với Docker
+0. Giao diện Docker Desktop:
+
+![Docker Desktop](./docker.png)
 
 1. Clone repository này về máy:
    ```bash
