@@ -71,3 +71,11 @@ Sau khi đăng nhập thành công, bạn sẽ thấy giao diện chính của A
   AIRFLOW_UID=501
   AIRFLOW_GID=0
 
+## 🎯 Mục tiêu 
+- Viết 1 **DAG cơ bản** để chạy demo **data pipeline** với Airflow Lite.  
+- DAG này có thể bao gồm các bước đơn giản như:  
+  - Tạo file CSV mẫu  
+  - Đọc dữ liệu từ CSV  
+  - In ra log hoặc lưu vào database (MySQL/Postgres)  
+- Mục tiêu là giúp làm quen với cách viết DAG, cấu trúc task, và cách theo dõi trên Airflow UI.  
+
