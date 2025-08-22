@@ -50,8 +50,9 @@ Airflow có 2 phiên bản phổ biến:
 3. Mở UI:
     [http://localhost:8080](http://localhost:8080)
 4. Đăng nhập với tài khoản mặc định:
-. Username: airflow
-. Password: airflow
+- **Username**: airflow
+- **Password**: airflow
+
 ## 📸 Giao diện Airflow
 
 Sau khi đăng nhập thành công, bạn sẽ thấy giao diện chính của Airflow:
@@ -64,6 +65,6 @@ Sau khi đăng nhập thành công, bạn sẽ thấy giao diện chính của A
 - **Airflow Lite** chỉ nên dùng cho **học tập và phát triển trên local**, **không khuyến nghị** triển khai trong môi trường production.  
 - Trước khi chạy `docker compose up`, cần tạo file `.env` với nội dung:  
   ```bash
-  AIRFLOW_UID=50000
+  AIRFLOW_UID=501
   AIRFLOW_GID=0
 
